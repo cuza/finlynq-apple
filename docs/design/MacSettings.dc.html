@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Settings window on Mac</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2F5BEA}a:hover{color:#1E3FB0}
+</style>
+</helmet>
+<div style="width: 1440px; height: 900px; box-sizing: border-box; position: relative; overflow: hidden; background: #E9EAEE; font-family: Inter, system-ui, sans-serif; color: #111318; font-size: 13px; font-feature-settings: 'tnum' 1">
+  <div role="dialog" aria-labelledby="win-title" style="position: absolute; left: 360px; top: 170px; width: 720px; height: 560px; box-sizing: border-box; background: #F6F6F8; border-radius: 12px; border: 1px solid rgba(17,19,24,0.12); box-shadow: 0 22px 60px rgba(17,19,24,0.22), 0 2px 8px rgba(17,19,24,0.10); overflow: hidden; display: flex; flex-direction: column">
+    <div style="flex: none; background: #FAFAFB; border-bottom: 1px solid #DCDEE3; padding: 10px 14px 8px; position: relative">
+      <div aria-hidden="true" style="position: absolute; left: 14px; top: 14px; display: flex; gap: 8px">
+        <span style="width: 12px; height: 12px; border-radius: 6px; background: #FF5F57"></span>
+        <span style="width: 12px; height: 12px; border-radius: 6px; background: #FEBC2E"></span>
+        <span style="width: 12px; height: 12px; border-radius: 6px; background: #28C840"></span>
+      </div>
+      <h1 id="win-title" style="margin: 0; text-align: center; font-size: 13px; font-weight: 700; line-height: 18px">General</h1>
+      <div role="tablist" aria-label="Settings" style="display: flex; justify-content: center; gap: 4px; margin-top: 6px"><button role="tab" aria-selected="true" style="background: #E3E4E8; border: none; border-radius: 7px; width: 96px; height: 50px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font: 600 11px Inter, sans-serif; color: #111318"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#2F5BEA" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"></path></svg>General</button><button role="tab" aria-selected="false" style="background: transparent; border: none; border-radius: 7px; width: 96px; height: 50px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font: 500 11px Inter, sans-serif; color: #4A505B"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5F6672" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="8" ry="3"></ellipse><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"></path><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"></path></svg>Accounts &amp; Data</button><button role="tab" aria-selected="false" style="background: transparent; border: none; border-radius: 7px; width: 96px; height: 50px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font: 500 11px Inter, sans-serif; color: #4A505B"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5F6672" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5"></path><path d="M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4"></path></svg>Import</button><button role="tab" aria-selected="false" style="background: transparent; border: none; border-radius: 7px; width: 96px; height: 50px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; font: 500 11px Inter, sans-serif; color: #4A505B"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5F6672" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="11" width="16" height="10" rx="2"></rect><path d="M8 11V7a4 4 0 0 1 8 0v4"></path></svg>Security</button></div>
+    </div>
+    <div role="tabpanel" aria-label="General" style="flex: 1; min-height: 0; box-sizing: border-box; padding: 24px 40px 0 0; display: flex; flex-direction: column; gap: 13px">
+
+        <div style="display: flex; gap: 14px; align-items: flex-start">
+          <div id="l-cur" style="width: 220px; flex: none; text-align: right; color: #111318; padding-top: 5px">Display currency:</div>
+          <div>
+            <button aria-haspopup="listbox" aria-labelledby="l-cur" style="height: 24px; box-sizing: border-box; border: 1px solid #D0D3D9; border-radius: 6px; background: #FFFFFF; color: #111318; font: 400 13px Inter, sans-serif; padding: 0 6px 0 9px; display: inline-flex; align-items: center; justify-content: space-between; gap: 10px; box-shadow: 0 1px 1px rgba(17,19,24,0.06); width: 200px">USD, US dollar<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#5F6672" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 10l4-4 4 4M8 14l4 4 4-4"></path></svg></button>
+            <div style="font-size: 12px; color: #5F6672; margin-top: 5px; line-height: 1.4">Totals, budgets and reports use this currency.</div>
+          </div>
+        </div>
+        <div style="display: flex; gap: 14px; align-items: flex-start">
+          <div id="l-curs" style="width: 220px; flex: none; text-align: right; color: #111318; padding-top: 5px">Currencies you use:</div>
+          <div style="width: 300px">
+            <div role="listbox" aria-labelledby="l-curs" style="border: 1px solid #D0D3D9; border-radius: 6px; background: #FFFFFF; overflow: hidden">
+              <div role="option" aria-selected="false" style="display: flex; justify-content: space-between; height: 26px; align-items: center; padding: 0 10px; border-bottom: 1px solid #F0F1F3"><span>USD <span style="color: #5F6672">US dollar</span></span><span style="color: #5F6672">Display</span></div>
+              <div role="option" aria-selected="true" style="display: flex; justify-content: space-between; height: 26px; align-items: center; padding: 0 10px; background: #E8EEFF"><span>CAD <span style="color: #5F6672">Canadian dollar</span></span><span style="color: #5F6672">1 CAD = 0.72 USD</span></div>
+              <div style="display: flex; border-top: 1px solid #D0D3D9; background: #FAFAFB">
+                <button aria-label="Add currency" style="width: 26px; height: 22px; border: none; border-right: 1px solid #D0D3D9; background: transparent; display: flex; align-items: center; justify-content: center"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111318" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></button>
+                <button aria-label="Remove currency" style="width: 26px; height: 22px; border: none; border-right: 1px solid #D0D3D9; background: transparent; display: flex; align-items: center; justify-content: center"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#111318" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path></svg></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display: flex; gap: 14px; align-items: flex-start">
+          <div id="l-rate" style="width: 220px; flex: none; text-align: right; color: #111318; padding-top: 5px">Show exchange rates:</div>
+          <div>
+            <button aria-haspopup="listbox" aria-labelledby="l-rate" style="height: 24px; box-sizing: border-box; border: 1px solid #D0D3D9; border-radius: 6px; background: #FFFFFF; color: #111318; font: 400 13px Inter, sans-serif; padding: 0 6px 0 9px; display: inline-flex; align-items: center; justify-content: space-between; gap: 10px; box-shadow: 0 1px 1px rgba(17,19,24,0.06); width: 200px">As quoted<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#5F6672" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 10l4-4 4 4M8 14l4 4 4-4"></path></svg></button>
+            <div style="font-size: 12px; color: #5F6672; margin-top: 5px; line-height: 1.4">Custom rates are under Accounts &amp; Data.</div>
+          </div>
+        </div>
+        <div style="height: 1px; background: #E1E3E7; margin: 2px 0 2px 234px"></div>
+        <div style="display: flex; gap: 14px; align-items: flex-start">
+          <label for="server" style="width: 220px; flex: none; text-align: right; color: #111318; padding-top: 5px">Server:</label>
+          <div>
+            <div style="display: flex; align-items: center; gap: 8px">
+              <input id="server" type="url" value="https://finlynq.com" readonly style="width: 220px; height: 24px; box-sizing: border-box; border: 1px solid #D0D3D9; border-radius: 6px; background: #FAFAFB; font: 400 13px Inter, sans-serif; color: #111318; padding: 0 8px">
+              <span style="display: inline-flex; align-items: center; gap: 5px; color: #0B6B37; font-weight: 500"><span style="width: 7px; height: 7px; border-radius: 4px; background: #1C9A55"></span>Connected</span>
+            </div>
+            <div style="font-size: 12px; color: #5F6672; margin-top: 5px; line-height: 1.4">Signed in as demo@finlynq.com. Sign out to use a self-hosted server.</div>
+          </div>
+        </div>
+        <div style="height: 1px; background: #E1E3E7; margin: 2px 0 2px 234px"></div>
+        <div style="display: flex; gap: 14px; align-items: flex-start">
+          <div style="width: 220px; flex: none; text-align: right; color: #111318; padding-top: 5px">Unlock:</div>
+          <div style="padding-top: 4px">
+            <label style="display: flex; align-items: center; gap: 7px"><input type="checkbox" checked style="margin: 0; width: 14px; height: 14px; accent-color: #2F5BEA">Use Touch ID to unlock Finlynq</label>
+          </div>
+        </div>
+        <div style="display: flex; gap: 14px; align-items: flex-start">
+          <div id="l-lock" style="width: 220px; flex: none; text-align: right; color: #111318; padding-top: 5px">Lock automatically:</div>
+          <div>
+            <button aria-haspopup="listbox" aria-labelledby="l-lock" style="height: 24px; box-sizing: border-box; border: 1px solid #D0D3D9; border-radius: 6px; background: #FFFFFF; color: #111318; font: 400 13px Inter, sans-serif; padding: 0 6px 0 9px; display: inline-flex; align-items: center; justify-content: space-between; gap: 10px; box-shadow: 0 1px 1px rgba(17,19,24,0.06); width: 200px">After 5 minutes idle<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#5F6672" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 10l4-4 4 4M8 14l4 4 4-4"></path></svg></button>
+            <div style="font-size: 12px; color: #5F6672; margin-top: 5px; line-height: 1.4">Finlynq asks for Touch ID or your password to open again.</div>
+          </div>
+        </div>
+
+    </div>
+    <div style="flex: none; border-top: 1px solid #E1E3E7; padding: 12px 20px; display: flex; align-items: center; gap: 8px; color: #5F6672">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#5F6672" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 11v5M12 8h.01"></path></svg>
+      <span>API keys, connected apps and backups are on <a href="https://finlynq.com" style="font-weight: 500">finlynq.com</a>.</span>
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":900}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

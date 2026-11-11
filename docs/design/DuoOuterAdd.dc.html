@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Add on iPhone Duo, closed</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2F5BEA}a:hover{color:#1E3FB0}
+</style>
+</helmet>
+<div style="width: 466px; height: 678px; box-sizing: border-box; position: relative; overflow: hidden; background: #F2F3F5; font-family: Inter, system-ui, sans-serif; color: #111318; font-feature-settings: 'tnum' 1">
+  <div aria-hidden="true" inert style="position: absolute; inset: 0; padding: 22px 80px 0 20px; display: flex; flex-direction: column; gap: 16px"><div style="height: 44px; width: 120px; border-radius: 12px; background: #DCDEE3"></div><div style="height: 300px; border-radius: 22px; background: #FFFFFF"></div></div>
+  <div aria-hidden="true" style="position: absolute; inset: 0; background: rgba(17,19,24,0.42)"></div>
+  <div role="dialog" aria-modal="true" aria-labelledby="add-title" style="position: absolute; left: 0; right: 0; top: 10px; bottom: 0; background: #FFFFFF; border-radius: 28px 28px 0 0; box-shadow: 0 -8px 30px rgba(17,19,24,0.18)">
+    <div aria-hidden="true" style="position: absolute; top: 6px; left: 183px; width: 36px; height: 5px; border-radius: 3px; background: #D9DCE1"></div>
+    <div style="position: absolute; left: 0; top: 0; width: 402px; bottom: 0; box-sizing: border-box; padding: 20px 14px 20px 20px; display: flex; flex-direction: column; gap: 14px; overflow: hidden">
+    <div style="flex: none; display: flex; align-items: center; height: 36px"><h2 id="add-title" style="margin: 0; font-size: 17px; font-weight: 600">New expense</h2></div>
+    <div role="group" aria-label="Type" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px; background: rgba(118,118,128,0.12); padding: 3px; border-radius: 999px">
+      <button aria-pressed="true" style="border: none; height: 32px; padding: 0; border-radius: 999px; font: 600 14px Inter, sans-serif; color: #111318; background: #FFFFFF; box-shadow: 0 1px 3px rgba(17,19,24,0.14), 0 0 0 0.5px rgba(17,19,24,0.04)">Expense</button>
+      <button style="border: none; height: 32px; padding: 0; border-radius: 999px; font: 500 14px Inter, sans-serif; color: #111318; background: transparent">Income</button>
+      <button style="border: none; height: 32px; padding: 0; border-radius: 999px; font: 500 14px Inter, sans-serif; color: #111318; background: transparent">Transfer</button>
+      <button style="border: none; height: 32px; padding: 0; border-radius: 999px; font: 500 14px Inter, sans-serif; color: #111318; background: transparent">Invest</button>
+    </div>
+
+    <label style="display: flex; align-items: center; justify-content: center; gap: 4px; height: 96px; border-radius: 18px; background: #F6F7F8; border: 2px solid #2F5BEA; box-sizing: border-box">
+      <span style="font-size: 30px; font-weight: 600; color: #5F6672">$</span>
+      <input type="text" inputmode="decimal" value="12.50" aria-label="Amount" style="width: 165px; border: none; background: transparent; outline: none; font: 700 56px Inter, sans-serif; letter-spacing: -0.03em; color: #111318; font-feature-settings: 'tnum' 1">
+    </label>
+
+    <div style="display: flex; flex-direction: column; gap: 8px">
+      <div style="display: flex; justify-content: space-between; align-items: baseline">
+        <h3 style="margin: 0; font-size: 13px; font-weight: 600; color: #5F6672">Category</h3>
+      </div>
+      <div role="group" aria-label="Category" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px">
+        <button aria-pressed="true" style="border: 2px solid #2F5BEA; background: #E8EEFF; border-radius: 16px; height: 64px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font: 600 13px Inter, sans-serif; color: #1E3FB0">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 8h1a4 4 0 1 1 0 8h-1"></path><path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4z"></path><path d="M6 2v2M10 2v2M14 2v2"></path></svg>Coffee</button>
+        <button style="border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 16px; height: 64px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font: 500 13px Inter, sans-serif; color: #111318">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B4580A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path><path d="M7 2v20"></path><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"></path></svg>Dining</button>
+        <button style="border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 16px; height: 64px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font: 500 13px Inter, sans-serif; color: #111318">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#137A43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"></path></svg>Groceries</button>
+        <button style="border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 16px; height: 64px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font: 500 13px Inter, sans-serif; color: #111318">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2F5BEA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="3" width="16" height="14" rx="3"></rect><path d="M4 11h16M8 21l-2-4M16 21l2-4"></path><circle cx="8" cy="14" r=".5"></circle><circle cx="16" cy="14" r=".5"></circle></svg>Transit</button>
+        <button style="border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 16px; height: 64px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font: 500 13px Inter, sans-serif; color: #111318">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#B42318" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 22V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v17"></path><path d="M3 22h12M15 10h2a2 2 0 0 1 2 2v4a1.5 1.5 0 0 0 3 0V8l-3-3"></path></svg>Fuel</button>
+        <button style="border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 16px; height: 64px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font: 500 13px Inter, sans-serif; color: #111318">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C2347A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><path d="M3 6h18M16 10a4 4 0 0 1-8 0"></path></svg>Shopping</button>
+        <button style="border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 16px; height: 64px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font: 500 13px Inter, sans-serif; color: #111318">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#5B3CC4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"></rect><path d="M8 21h8"></path></svg>Streaming</button>
+        <button style="border: 1px dashed #C9CDD4; background: #FFFFFF; border-radius: 16px; height: 64px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; font: 500 13px Inter, sans-serif; color: #4A505B">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>All</button>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 8px">
+      <button aria-label="Account: Visa Rewards" style="height: 36px; padding: 0 14px; border-radius: 18px; border: none; background: #F2F3F5; color: #111318; font: 500 14px Inter, sans-serif; display: flex; align-items: center; gap: 6px">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"></rect><path d="M2 10h20"></path></svg>Visa Rewards</button>
+      <button aria-label="Date: today, November 9" style="height: 36px; padding: 0 14px; border-radius: 18px; border: none; background: #F2F3F5; color: #111318; font: 500 14px Inter, sans-serif; display: flex; align-items: center; gap: 6px">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="3"></rect><path d="M8 2v4M16 2v4M3 10h18"></path></svg>Today, Nov 9</button>
+    </div>
+
+    <div style="background: #F6F7F8; border-radius: 14px; padding: 0 14px">
+      <label style="display: flex; align-items: center; gap: 12px; height: 48px; border-bottom: 1px solid #E6E8EB">
+        <span style="width: 56px; font-size: 15px; font-weight: 500">Payee</span>
+        <input type="text" placeholder="Where you spent it" style="flex: 1; border: none; background: transparent; outline: none; font: 400 15px Inter, sans-serif; color: #111318">
+      </label>
+      <label style="display: flex; align-items: center; gap: 12px; height: 48px">
+        <span style="width: 56px; font-size: 15px; font-weight: 500">Note</span>
+        <input type="text" placeholder="Optional" style="flex: 1; border: none; background: transparent; outline: none; font: 400 15px Inter, sans-serif; color: #111318">
+      </label>
+    </div>
+    </div>
+  </div>
+  <div aria-hidden="true" style="position: absolute; top: 14px; left: 420px; width: 28px; height: 28px; border-radius: 14px; background: #0B0C0E; z-index: 40"></div>
+  <div aria-hidden="true" style="position: absolute; top: 50px; left: 402px; width: 64px; display: flex; flex-direction: column; align-items: center; gap: 6px; font-size: 15px; font-weight: 600; color: #111318; pointer-events: none; z-index: 40"><span>9:41</span><span style="display: flex; align-items: center; gap: 4px"><svg width="17" height="12" viewBox="0 0 17 12" fill="#111318"><path d="M8.5 2.2c2.4 0 4.6.9 6.2 2.5l1.2-1.2A10.4 10.4 0 0 0 8.5.5 10.4 10.4 0 0 0 1.1 3.5l1.2 1.2a8.7 8.7 0 0 1 6.2-2.5zm0 3.4c1.5 0 2.8.6 3.8 1.5L13.5 6a7 7 0 0 0-10 0l1.2 1.1c1-.9 2.3-1.5 3.8-1.5zm0 3.4c-.6 0-1.1.2-1.5.6l1.5 1.5L10 9.6c-.4-.4-.9-.6-1.5-.6z"></path></svg><svg width="27" height="13" viewBox="0 0 27 13"><rect x="0.5" y="0.5" width="23" height="12" rx="3.5" fill="none" stroke="#111318" stroke-opacity="0.4"></rect><rect x="2" y="2" width="20" height="9" rx="2" fill="#111318"></rect><path d="M25 4.5v4c.8-.3 1.3-1.1 1.3-2s-.5-1.7-1.3-2z" fill="#111318" fill-opacity="0.4"></path></svg></span></div>
+  <div role="toolbar" aria-label="Actions" aria-orientation="vertical" style="position: absolute; top: 102px; left: 410px; width: 48px; display: flex; flex-direction: column; gap: 10px; z-index: 20"><a href="DuoOuterHome.dc.html" aria-label="Cancel" style="flex: none; width: 48px; height: 48px; border-radius: 24px; border: none; padding: 0; display: flex; align-items: center; justify-content: center; text-decoration: none; color: #111318; background: rgba(255,255,255,0.6); -webkit-backdrop-filter: blur(30px) saturate(1.6); backdrop-filter: blur(30px) saturate(1.6); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.9), 0 0 0 0.5px rgba(17,19,24,0.08), 0 4px 14px rgba(17,19,24,0.08)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></a><button aria-label="Save" style="flex: none; width: 48px; height: 48px; border-radius: 24px; border: none; padding: 0; display: flex; align-items: center; justify-content: center; text-decoration: none; color: #111318; background: rgba(47,91,234,0.9); -webkit-backdrop-filter: blur(30px) saturate(1.6); backdrop-filter: blur(30px) saturate(1.6); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.3), 0 4px 14px rgba(47,91,234,0.32); color: #FFFFFF"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"></path></svg></button><button aria-label="Scan a receipt" style="flex: none; width: 48px; height: 48px; border-radius: 24px; border: none; padding: 0; display: flex; align-items: center; justify-content: center; text-decoration: none; color: #111318; background: rgba(255,255,255,0.6); -webkit-backdrop-filter: blur(30px) saturate(1.6); backdrop-filter: blur(30px) saturate(1.6); box-shadow: inset 0 0 0 1px rgba(255,255,255,0.9), 0 0 0 0.5px rgba(17,19,24,0.08), 0 4px 14px rgba(17,19,24,0.08)"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"></path><path d="M7 12h10"></path></svg></button></div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":466,"height":678}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

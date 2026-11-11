@@ -1,0 +1,1252 @@
+{
+  "v": 3,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-09T16:10:00Z"
+  },
+  "title": "Finlynq native app design",
+  "launch": {
+    "view": "canvas",
+    "page": "icon"
+  },
+  "pages": [
+    {
+      "id": "icon",
+      "name": "App icon"
+    },
+    {
+      "id": "screens",
+      "name": "iPhone screens"
+    },
+    {
+      "id": "large",
+      "name": "iPad and Mac"
+    },
+    {
+      "id": "portrait",
+      "name": "iPad portrait"
+    },
+    {
+      "id": "duo",
+      "name": "iPhone Duo"
+    },
+    {
+      "id": "directions",
+      "name": "Directions"
+    }
+  ],
+  "boards": {
+    "Main.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "A. Clear (chosen)",
+      "radius": 44,
+      "page": "directions"
+    },
+    "Night.dc.html": {
+      "x": 470,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "B. Night",
+      "radius": 44,
+      "page": "directions"
+    },
+    "Blocks.dc.html": {
+      "x": 940,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "C. Blocks",
+      "radius": 44,
+      "page": "directions"
+    },
+    "iPad.dc.html": {
+      "x": 0,
+      "y": 1320,
+      "w": 1194,
+      "h": 834,
+      "title": "iPad, Overview",
+      "radius": 18,
+      "page": "directions"
+    },
+    "Mac.dc.html": {
+      "x": 1274,
+      "y": 1320,
+      "w": 1440,
+      "h": 900,
+      "title": "Mac, Overview",
+      "radius": 12,
+      "page": "directions"
+    },
+    "Home.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "1. Home",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Activity.dc.html": {
+      "x": 470,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "2. Activity",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Add.dc.html": {
+      "x": 940,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "3. Add (+ button)",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Plan.dc.html": {
+      "x": 1410,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "4. Plan",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Wealth.dc.html": {
+      "x": 1880,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "5. Wealth",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Insights.dc.html": {
+      "x": 2350,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "6. Insights",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Transaction.dc.html": {
+      "x": 0,
+      "y": 1300,
+      "w": 390,
+      "h": 844,
+      "title": "Transaction",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Review.dc.html": {
+      "x": 470,
+      "y": 1300,
+      "w": 390,
+      "h": 844,
+      "title": "Review imports",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Calendar.dc.html": {
+      "x": 940,
+      "y": 1300,
+      "w": 390,
+      "h": 844,
+      "title": "Calendar",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Import.dc.html": {
+      "x": 1410,
+      "y": 1300,
+      "w": 390,
+      "h": 844,
+      "title": "Import a statement",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Category.dc.html": {
+      "x": 0,
+      "y": 2600,
+      "w": 390,
+      "h": 844,
+      "title": "Category (Dining)",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Bills.dc.html": {
+      "x": 470,
+      "y": 2600,
+      "w": 390,
+      "h": 844,
+      "title": "Plan > Bills",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Goals.dc.html": {
+      "x": 940,
+      "y": 2600,
+      "w": 390,
+      "h": 844,
+      "title": "Plan > Goals",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Goal.dc.html": {
+      "x": 1410,
+      "y": 2600,
+      "w": 390,
+      "h": 844,
+      "title": "Goal (Emergency fund)",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Account.dc.html": {
+      "x": 0,
+      "y": 3900,
+      "w": 390,
+      "h": 844,
+      "title": "Account (Chequing)",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Investments.dc.html": {
+      "x": 470,
+      "y": 3900,
+      "w": 390,
+      "h": 844,
+      "title": "Investments",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Holding.dc.html": {
+      "x": 940,
+      "y": 3900,
+      "w": 390,
+      "h": 844,
+      "title": "Holding (VTI)",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Invest.dc.html": {
+      "x": 1410,
+      "y": 3900,
+      "w": 390,
+      "h": 844,
+      "title": "Add > Invest",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Debts.dc.html": {
+      "x": 1880,
+      "y": 3900,
+      "w": 390,
+      "h": 844,
+      "title": "Debts",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Loan.dc.html": {
+      "x": 2350,
+      "y": 3900,
+      "w": 390,
+      "h": 844,
+      "title": "Loan (Car loan)",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "LoanPlan.dc.html": {
+      "x": 2820,
+      "y": 3900,
+      "w": 390,
+      "h": 844,
+      "title": "Loan > What if",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Statement.dc.html": {
+      "x": 0,
+      "y": 5200,
+      "w": 390,
+      "h": 844,
+      "title": "Income statement",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "NetWorth.dc.html": {
+      "x": 470,
+      "y": 5200,
+      "w": 390,
+      "h": 844,
+      "title": "Net worth over time",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Tax.dc.html": {
+      "x": 940,
+      "y": 5200,
+      "w": 390,
+      "h": 844,
+      "title": "Tax time",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Settings.dc.html": {
+      "x": 0,
+      "y": 6500,
+      "w": 390,
+      "h": 844,
+      "title": "Settings",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "SignIn.dc.html": {
+      "x": 470,
+      "y": 6500,
+      "w": 390,
+      "h": 844,
+      "title": "Sign in",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "Setup.dc.html": {
+      "x": 940,
+      "y": 6500,
+      "w": 390,
+      "h": 844,
+      "title": "First-run setup",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "iPadHome.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1194,
+      "h": 834,
+      "title": "iPad \u00b7 Home",
+      "radius": 18,
+      "page": "large",
+      "is_interactive": true
+    },
+    "iPadActivity.dc.html": {
+      "x": 1274,
+      "y": 0,
+      "w": 1194,
+      "h": 834,
+      "title": "iPad \u00b7 Activity",
+      "radius": 18,
+      "page": "large",
+      "is_interactive": true
+    },
+    "iPadPlan.dc.html": {
+      "x": 2548,
+      "y": 0,
+      "w": 1194,
+      "h": 834,
+      "title": "iPad \u00b7 Plan",
+      "radius": 18,
+      "page": "large",
+      "is_interactive": true
+    },
+    "iPadReview.dc.html": {
+      "x": 3822,
+      "y": 0,
+      "w": 1194,
+      "h": 834,
+      "title": "iPad \u00b7 Review imports",
+      "radius": 18,
+      "page": "large",
+      "is_interactive": true
+    },
+    "iPadInvestments.dc.html": {
+      "x": 5096,
+      "y": 0,
+      "w": 1194,
+      "h": 834,
+      "title": "iPad \u00b7 Investments",
+      "radius": 18,
+      "page": "large",
+      "is_interactive": true
+    },
+    "iPadInsights.dc.html": {
+      "x": 6370,
+      "y": 0,
+      "w": 1194,
+      "h": 834,
+      "title": "iPad \u00b7 Insights",
+      "radius": 18,
+      "page": "large",
+      "is_interactive": true
+    },
+    "iPadAdd.dc.html": {
+      "x": 7644,
+      "y": 0,
+      "w": 1194,
+      "h": 834,
+      "title": "iPad \u00b7 Add",
+      "radius": 18,
+      "page": "large",
+      "is_interactive": true
+    },
+    "MacHome.dc.html": {
+      "x": 0,
+      "y": 1400,
+      "w": 1440,
+      "h": 900,
+      "title": "Mac \u00b7 Home",
+      "radius": 12,
+      "page": "large",
+      "is_interactive": true
+    },
+    "MacActivity.dc.html": {
+      "x": 1520,
+      "y": 1400,
+      "w": 1440,
+      "h": 900,
+      "title": "Mac \u00b7 Activity",
+      "radius": 12,
+      "page": "large",
+      "is_interactive": true
+    },
+    "MacPlan.dc.html": {
+      "x": 3040,
+      "y": 1400,
+      "w": 1440,
+      "h": 900,
+      "title": "Mac \u00b7 Budget",
+      "radius": 12,
+      "page": "large",
+      "is_interactive": true
+    },
+    "MacReview.dc.html": {
+      "x": 4560,
+      "y": 1400,
+      "w": 1440,
+      "h": 900,
+      "title": "Mac \u00b7 Review imports",
+      "radius": 12,
+      "page": "large",
+      "is_interactive": true
+    },
+    "MacInvestments.dc.html": {
+      "x": 6080,
+      "y": 1400,
+      "w": 1440,
+      "h": 900,
+      "title": "Mac \u00b7 Investments",
+      "radius": 12,
+      "page": "large",
+      "is_interactive": true
+    },
+    "MacLoan.dc.html": {
+      "x": 7600,
+      "y": 1400,
+      "w": 1440,
+      "h": 900,
+      "title": "Mac \u00b7 Car loan",
+      "radius": 12,
+      "page": "large",
+      "is_interactive": true
+    },
+    "MacStatement.dc.html": {
+      "x": 9120,
+      "y": 1400,
+      "w": 1440,
+      "h": 900,
+      "title": "Mac \u00b7 Income statement",
+      "radius": 12,
+      "page": "large",
+      "is_interactive": true
+    },
+    "MacSettings.dc.html": {
+      "x": 10640,
+      "y": 1400,
+      "w": 1440,
+      "h": 900,
+      "title": "Mac \u00b7 Settings window",
+      "radius": 12,
+      "page": "large",
+      "is_interactive": true
+    },
+    "ApplePay.dc.html": {
+      "x": 1410,
+      "y": 6500,
+      "w": 390,
+      "h": 844,
+      "title": "Settings > Apple Pay",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "iPadPHome.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Home",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPActivity.dc.html": {
+      "x": 900,
+      "y": 0,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Activity",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPBudget.dc.html": {
+      "x": 1800,
+      "y": 0,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Budget",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPBills.dc.html": {
+      "x": 2700,
+      "y": 0,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Bills",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPGoals.dc.html": {
+      "x": 3600,
+      "y": 0,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Goals",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPAccounts.dc.html": {
+      "x": 4500,
+      "y": 0,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Accounts",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPInvestments.dc.html": {
+      "x": 5400,
+      "y": 0,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Investments",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPDebts.dc.html": {
+      "x": 6300,
+      "y": 0,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Debts",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPInsights.dc.html": {
+      "x": 7200,
+      "y": 0,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Insights",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPTransaction.dc.html": {
+      "x": 0,
+      "y": 1700,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Transaction",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPCalendar.dc.html": {
+      "x": 900,
+      "y": 1700,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Calendar",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPAdd.dc.html": {
+      "x": 1800,
+      "y": 1700,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Add (sheet)",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPReview.dc.html": {
+      "x": 2700,
+      "y": 1700,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Review imports",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPImport.dc.html": {
+      "x": 3600,
+      "y": 1700,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Import a statement",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPCategory.dc.html": {
+      "x": 4500,
+      "y": 1700,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Category (Dining)",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPGoal.dc.html": {
+      "x": 5400,
+      "y": 1700,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Goal (Emergency fund)",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPAccount.dc.html": {
+      "x": 0,
+      "y": 3400,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Account (Chequing)",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPHolding.dc.html": {
+      "x": 900,
+      "y": 3400,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Holding (VTI)",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPLoan.dc.html": {
+      "x": 1800,
+      "y": 3400,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Car loan",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPNetWorth.dc.html": {
+      "x": 2700,
+      "y": 3400,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Net worth",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPStatement.dc.html": {
+      "x": 3600,
+      "y": 3400,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Income statement",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPTax.dc.html": {
+      "x": 4500,
+      "y": 3400,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Tax time",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPSettings.dc.html": {
+      "x": 0,
+      "y": 5100,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Settings",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPApplePay.dc.html": {
+      "x": 900,
+      "y": 5100,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Settings > Apple Pay",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPSignIn.dc.html": {
+      "x": 1800,
+      "y": 5100,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 Sign in",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "iPadPSetup.dc.html": {
+      "x": 2700,
+      "y": 5100,
+      "w": 820,
+      "h": 1180,
+      "title": "iPad portrait \u00b7 First-run setup",
+      "radius": 18,
+      "page": "portrait",
+      "is_interactive": true
+    },
+    "DuoOuterHome.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 466,
+      "h": 678,
+      "title": "iPhone Duo closed \u00b7 Home",
+      "radius": 40,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoOuterActivity.dc.html": {
+      "x": 546,
+      "y": 0,
+      "w": 466,
+      "h": 678,
+      "title": "iPhone Duo closed \u00b7 Activity",
+      "radius": 40,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoOuterTransaction.dc.html": {
+      "x": 1092,
+      "y": 0,
+      "w": 466,
+      "h": 678,
+      "title": "iPhone Duo closed \u00b7 Transaction",
+      "radius": 40,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoOuterBudget.dc.html": {
+      "x": 1638,
+      "y": 0,
+      "w": 466,
+      "h": 678,
+      "title": "iPhone Duo closed \u00b7 Budget",
+      "radius": 40,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoOuterAccounts.dc.html": {
+      "x": 2184,
+      "y": 0,
+      "w": 466,
+      "h": 678,
+      "title": "iPhone Duo closed \u00b7 Wealth",
+      "radius": 40,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoOuterAdd.dc.html": {
+      "x": 2730,
+      "y": 0,
+      "w": 466,
+      "h": 678,
+      "title": "iPhone Duo closed \u00b7 Add (sheet)",
+      "radius": 40,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoInnerHome.dc.html": {
+      "x": 0,
+      "y": 1000,
+      "w": 669,
+      "h": 951,
+      "title": "iPhone Duo open \u00b7 Home",
+      "radius": 28,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoInnerActivity.dc.html": {
+      "x": 749,
+      "y": 1000,
+      "w": 669,
+      "h": 951,
+      "title": "iPhone Duo open \u00b7 Activity",
+      "radius": 28,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoInnerBudget.dc.html": {
+      "x": 1498,
+      "y": 1000,
+      "w": 669,
+      "h": 951,
+      "title": "iPhone Duo open \u00b7 Budget",
+      "radius": 28,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoInnerInvestments.dc.html": {
+      "x": 2247,
+      "y": 1000,
+      "w": 669,
+      "h": 951,
+      "title": "iPhone Duo open \u00b7 Investments",
+      "radius": 28,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoInnerHomeLandscape.dc.html": {
+      "x": 2996,
+      "y": 1000,
+      "w": 951,
+      "h": 669,
+      "title": "iPhone Duo open landscape \u00b7 Home",
+      "radius": 28,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "DuoBookActivity.dc.html": {
+      "x": 4027,
+      "y": 1000,
+      "w": 951,
+      "h": 669,
+      "title": "iPhone Duo book pose \u00b7 Activity",
+      "radius": 28,
+      "page": "duo",
+      "is_interactive": true
+    },
+    "CategoriesList.dc.html": {
+      "x": 0,
+      "y": 7800,
+      "w": 390,
+      "h": 844,
+      "title": "Settings > Categories",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "CategoryEditor.dc.html": {
+      "x": 470,
+      "y": 7800,
+      "w": 390,
+      "h": 844,
+      "title": "Edit category",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "CategoryDeleteBlocked.dc.html": {
+      "x": 940,
+      "y": 7800,
+      "w": 390,
+      "h": 844,
+      "title": "Delete refused",
+      "radius": 44,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "MacCategories.dc.html": {
+      "x": 1410,
+      "y": 7800,
+      "w": 1440,
+      "h": 900,
+      "title": "Mac \u00b7 Categories",
+      "radius": 12,
+      "page": "screens",
+      "is_interactive": true
+    },
+    "AppIconOptions.dc.html": {
+      "x": 0,
+      "y": 0,
+      "w": 1600,
+      "h": 1100,
+      "title": "Five icon options",
+      "radius": 16,
+      "page": "icon",
+      "is_interactive": false
+    },
+    "AppIconHome.dc.html": {
+      "x": 1700,
+      "y": 0,
+      "w": 390,
+      "h": 844,
+      "title": "On the Home Screen",
+      "radius": 44,
+      "page": "icon",
+      "is_interactive": false
+    },
+    "AppIconMac.dc.html": {
+      "x": 0,
+      "y": 1250,
+      "w": 1440,
+      "h": 300,
+      "title": "In the Mac Dock",
+      "radius": 12,
+      "page": "icon",
+      "is_interactive": false
+    }
+  },
+  "order": [
+    "Main.dc.html",
+    "Night.dc.html",
+    "Blocks.dc.html",
+    "iPad.dc.html",
+    "Mac.dc.html",
+    "Home.dc.html",
+    "Activity.dc.html",
+    "Add.dc.html",
+    "Plan.dc.html",
+    "Wealth.dc.html",
+    "Insights.dc.html",
+    "Transaction.dc.html",
+    "Review.dc.html",
+    "Calendar.dc.html",
+    "Import.dc.html",
+    "Category.dc.html",
+    "Bills.dc.html",
+    "Goals.dc.html",
+    "Goal.dc.html",
+    "Account.dc.html",
+    "Investments.dc.html",
+    "Holding.dc.html",
+    "Invest.dc.html",
+    "Debts.dc.html",
+    "Loan.dc.html",
+    "LoanPlan.dc.html",
+    "Statement.dc.html",
+    "NetWorth.dc.html",
+    "Tax.dc.html",
+    "Settings.dc.html",
+    "SignIn.dc.html",
+    "Setup.dc.html",
+    "iPadHome.dc.html",
+    "iPadActivity.dc.html",
+    "iPadPlan.dc.html",
+    "iPadReview.dc.html",
+    "iPadInvestments.dc.html",
+    "iPadInsights.dc.html",
+    "iPadAdd.dc.html",
+    "MacHome.dc.html",
+    "MacActivity.dc.html",
+    "MacPlan.dc.html",
+    "MacReview.dc.html",
+    "MacInvestments.dc.html",
+    "MacLoan.dc.html",
+    "MacStatement.dc.html",
+    "MacSettings.dc.html",
+    "ApplePay.dc.html",
+    "iPadPHome.dc.html",
+    "iPadPActivity.dc.html",
+    "iPadPBudget.dc.html",
+    "iPadPBills.dc.html",
+    "iPadPGoals.dc.html",
+    "iPadPAccounts.dc.html",
+    "iPadPInvestments.dc.html",
+    "iPadPDebts.dc.html",
+    "iPadPInsights.dc.html",
+    "iPadPTransaction.dc.html",
+    "iPadPCalendar.dc.html",
+    "iPadPAdd.dc.html",
+    "iPadPReview.dc.html",
+    "iPadPImport.dc.html",
+    "iPadPCategory.dc.html",
+    "iPadPGoal.dc.html",
+    "iPadPAccount.dc.html",
+    "iPadPHolding.dc.html",
+    "iPadPLoan.dc.html",
+    "iPadPNetWorth.dc.html",
+    "iPadPStatement.dc.html",
+    "iPadPTax.dc.html",
+    "iPadPSettings.dc.html",
+    "iPadPApplePay.dc.html",
+    "iPadPSignIn.dc.html",
+    "iPadPSetup.dc.html",
+    "DuoOuterHome.dc.html",
+    "DuoOuterActivity.dc.html",
+    "DuoOuterTransaction.dc.html",
+    "DuoOuterBudget.dc.html",
+    "DuoOuterAccounts.dc.html",
+    "DuoOuterAdd.dc.html",
+    "DuoInnerHome.dc.html",
+    "DuoInnerActivity.dc.html",
+    "DuoInnerBudget.dc.html",
+    "DuoInnerInvestments.dc.html",
+    "DuoInnerHomeLandscape.dc.html",
+    "DuoBookActivity.dc.html",
+    "CategoriesList.dc.html",
+    "CategoryEditor.dc.html",
+    "CategoryDeleteBlocked.dc.html",
+    "MacCategories.dc.html",
+    "AppIconOptions.dc.html",
+    "AppIconHome.dc.html",
+    "AppIconMac.dc.html"
+  ],
+  "notes": {
+    "heading": {
+      "x": 0,
+      "y": -300,
+      "text": "Overview screen, three directions",
+      "kind": "title1",
+      "maxW": 1330,
+      "page": "directions"
+    },
+    "pick": {
+      "x": 1410,
+      "y": 0,
+      "w": 300,
+      "text": "Direction A chosen. B and C stay here for reference.\n\nNumbers are sample data.",
+      "fill": "blue",
+      "size": "m",
+      "page": "directions"
+    },
+    "heading2": {
+      "x": 0,
+      "y": 1040,
+      "text": "Direction A on iPad and Mac",
+      "kind": "title1",
+      "maxW": 2714,
+      "page": "directions"
+    },
+    "tabs": {
+      "x": 0,
+      "y": -300,
+      "text": "Main tabs and the + sheet",
+      "kind": "title1",
+      "maxW": 2740,
+      "page": "screens"
+    },
+    "howto": {
+      "x": 2820,
+      "y": 0,
+      "w": 320,
+      "text": "Tap through: screens link to each other (open any frame and press Play).\n\nLeave comments on anything you like or don't like. iPad and Mac versions come next.\n\nNumbers are sample data.",
+      "fill": "blue",
+      "size": "m",
+      "page": "screens"
+    },
+    "row-activity": {
+      "x": 0,
+      "y": 1000,
+      "text": "Activity details",
+      "kind": "title1",
+      "maxW": 3210,
+      "page": "screens"
+    },
+    "row-plan": {
+      "x": 0,
+      "y": 2300,
+      "text": "Plan details",
+      "kind": "title1",
+      "maxW": 3210,
+      "page": "screens"
+    },
+    "row-wealth": {
+      "x": 0,
+      "y": 3600,
+      "text": "Wealth details",
+      "kind": "title1",
+      "maxW": 3210,
+      "page": "screens"
+    },
+    "row-insights": {
+      "x": 0,
+      "y": 4900,
+      "text": "Insights details",
+      "kind": "title1",
+      "maxW": 3210,
+      "page": "screens"
+    },
+    "row-app": {
+      "x": 0,
+      "y": 6200,
+      "text": "Settings and first run",
+      "kind": "title1",
+      "maxW": 3210,
+      "page": "screens"
+    },
+    "large-ipad": {
+      "x": 0,
+      "y": -300,
+      "text": "iPad",
+      "kind": "title1",
+      "maxW": 8800,
+      "page": "large"
+    },
+    "large-mac": {
+      "x": 0,
+      "y": 1100,
+      "text": "Mac",
+      "kind": "title1",
+      "maxW": 12100,
+      "page": "large"
+    },
+    "portrait-row0": {
+      "x": 0,
+      "y": -300,
+      "text": "Main sections",
+      "kind": "title1",
+      "maxW": 8100,
+      "page": "portrait"
+    },
+    "portrait-row1": {
+      "x": 0,
+      "y": 1400,
+      "text": "Activity and Plan details",
+      "kind": "title1",
+      "maxW": 6300,
+      "page": "portrait"
+    },
+    "portrait-row2": {
+      "x": 0,
+      "y": 3100,
+      "text": "Wealth and Insights details",
+      "kind": "title1",
+      "maxW": 5400,
+      "page": "portrait"
+    },
+    "portrait-row3": {
+      "x": 0,
+      "y": 4800,
+      "text": "Settings and first run",
+      "kind": "title1",
+      "maxW": 3600,
+      "page": "portrait"
+    },
+    "portrait-about": {
+      "x": 8100,
+      "y": 0,
+      "w": 340,
+      "text": "iPad Air held upright with the sidebar open. The screen gets a 540pt column, so every view is one column of cards, and amounts never wrap.\n\nChrome is the system look (Liquid Glass on iPadOS 26): glass sidebar, toolbar buttons, segmented controls. Content cards stay opaque.\n\nSample values are the long CAD amounts that broke the app.",
+      "fill": "blue",
+      "size": "m",
+      "page": "portrait"
+    },
+    "duo-outer": {
+      "x": 0,
+      "y": -300,
+      "text": "Closed: outer display",
+      "kind": "title1",
+      "maxW": 3300,
+      "page": "duo"
+    },
+    "duo-inner": {
+      "x": 0,
+      "y": 700,
+      "text": "Open: inner display",
+      "kind": "title1",
+      "maxW": 5300,
+      "page": "duo"
+    },
+    "duo-about": {
+      "x": 3276,
+      "y": 0,
+      "w": 360,
+      "text": "iPhone Duo, Apple's foldable (iOS 27.1+).\n\nClosed (466x678pt): the system moves tab bar, toolbar and back button into a rail on the right. Content runs beside it.\n\nOpen (669x951pt): horizontal bars in portrait; the rail in landscape. List and detail sit side by side.\n\nBook pose: content splits 50/50 around the fold.\n\nAll of this comes from system controls; the boards decide how content reflows.",
+      "fill": "blue",
+      "size": "m",
+      "page": "duo"
+    },
+    "row-categories": {
+      "x": 0,
+      "y": 7500,
+      "text": "Category editor",
+      "kind": "title1",
+      "maxW": 3500,
+      "page": "screens"
+    },
+    "icon-head": {
+      "x": 0,
+      "y": -300,
+      "text": "App icon",
+      "kind": "title1",
+      "maxW": 2100,
+      "page": "icon"
+    },
+    "icon-about": {
+      "x": 2170,
+      "y": 0,
+      "w": 340,
+      "text": "Pick a letter (A to E). Each icon is a background plus 2 glyph layers, so it can be rebuilt in Apple's Icon Composer for the Liquid Glass look on iOS 26 and macOS 26.\n\nA is today's placeholder (the React Native icon).",
+      "fill": "blue",
+      "size": "m",
+      "page": "icon"
+    }
+  },
+  "designSystems": []
+}

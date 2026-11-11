@@ -1,0 +1,383 @@
+{
+ "type": "csv",
+ "headers": [
+  "Date",
+  "Description",
+  "Amount"
+ ],
+ "valid": [
+  {
+   "date": "2026-11-08",
+   "account": "Chequing",
+   "amount": -27.99,
+   "payee": "AMZN Mktp CA",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-11-07",
+   "account": "Chequing",
+   "amount": -500.0,
+   "payee": "Transfer to Savings",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-10",
+   "account": "Chequing",
+   "amount": -60.99,
+   "payee": "Tim Hortons",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-10",
+   "account": "Chequing",
+   "amount": -30.55,
+   "payee": "Presto",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-11",
+   "account": "Chequing",
+   "amount": -118.56,
+   "payee": "Metro",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-12",
+   "account": "Chequing",
+   "amount": -16.75,
+   "payee": "Shoppers Drug Mart",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-12",
+   "account": "Chequing",
+   "amount": -98.32,
+   "payee": "Starbucks",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-13",
+   "account": "Chequing",
+   "amount": -68.36,
+   "payee": "Petro-Canada",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-14",
+   "account": "Chequing",
+   "amount": -14.21,
+   "payee": "Indigo",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-14",
+   "account": "Chequing",
+   "amount": -93.31,
+   "payee": "Loblaws",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-15",
+   "account": "Chequing",
+   "amount": -10.6,
+   "payee": "Uber Eats",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-16",
+   "account": "Chequing",
+   "amount": -80.32,
+   "payee": "Rogers",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-16",
+   "account": "Chequing",
+   "amount": -16.29,
+   "payee": "Netflix",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-17",
+   "account": "Chequing",
+   "amount": -19.97,
+   "payee": "Costco Wholesale",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-18",
+   "account": "Chequing",
+   "amount": -78.72,
+   "payee": "LCBO",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-18",
+   "account": "Chequing",
+   "amount": -149.53,
+   "payee": "Cineplex",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-19",
+   "account": "Chequing",
+   "amount": -25.79,
+   "payee": "Esso",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-20",
+   "account": "Chequing",
+   "amount": -43.29,
+   "payee": "Tim Hortons",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-20",
+   "account": "Chequing",
+   "amount": -114.43,
+   "payee": "Presto",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-21",
+   "account": "Chequing",
+   "amount": -170.8,
+   "payee": "Metro",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-22",
+   "account": "Chequing",
+   "amount": -105.57,
+   "payee": "Shoppers Drug Mart",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-22",
+   "account": "Chequing",
+   "amount": -73.82,
+   "payee": "Starbucks",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-23",
+   "account": "Chequing",
+   "amount": -175.82,
+   "payee": "Petro-Canada",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-24",
+   "account": "Chequing",
+   "amount": -12.2,
+   "payee": "Indigo",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-24",
+   "account": "Chequing",
+   "amount": -155.09,
+   "payee": "Loblaws",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-25",
+   "account": "Chequing",
+   "amount": -54.97,
+   "payee": "Uber Eats",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-26",
+   "account": "Chequing",
+   "amount": -29.39,
+   "payee": "Rogers",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-26",
+   "account": "Chequing",
+   "amount": -24.73,
+   "payee": "Netflix",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-27",
+   "account": "Chequing",
+   "amount": -58.29,
+   "payee": "Costco Wholesale",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-28",
+   "account": "Chequing",
+   "amount": -147.64,
+   "payee": "LCBO",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-28",
+   "account": "Chequing",
+   "amount": -35.81,
+   "payee": "Cineplex",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-29",
+   "account": "Chequing",
+   "amount": -106.36,
+   "payee": "Esso",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-30",
+   "account": "Chequing",
+   "amount": -116.45,
+   "payee": "Tim Hortons",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-30",
+   "account": "Chequing",
+   "amount": -69.54,
+   "payee": "Presto",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-31",
+   "account": "Chequing",
+   "amount": -100.4,
+   "payee": "Metro",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-11-01",
+   "account": "Chequing",
+   "amount": -15.05,
+   "payee": "Shoppers Drug Mart",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-11-01",
+   "account": "Chequing",
+   "amount": -14.49,
+   "payee": "Starbucks",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-11-02",
+   "account": "Chequing",
+   "amount": -40.25,
+   "payee": "Petro-Canada",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-11-03",
+   "account": "Chequing",
+   "amount": -123.75,
+   "payee": "Indigo",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-11-03",
+   "account": "Chequing",
+   "amount": -79.26,
+   "payee": "Loblaws",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-11-04",
+   "account": "Chequing",
+   "amount": -59.29,
+   "payee": "Uber Eats",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-11-05",
+   "account": "Chequing",
+   "amount": -107.06,
+   "payee": "Rogers",
+   "currency": "USD",
+   "tags": "source:csv"
+  }
+ ],
+ "duplicates": [
+  {
+   "date": "2026-11-03",
+   "account": "Chequing",
+   "amount": -1450.0,
+   "payee": "Maple Leaf Properties",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-11-01",
+   "account": "Chequing",
+   "amount": 3200.0,
+   "payee": "Acme Corp",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-15",
+   "account": "Chequing",
+   "amount": 3200.0,
+   "payee": "Acme Corp",
+   "currency": "USD",
+   "tags": "source:csv"
+  },
+  {
+   "date": "2026-10-10",
+   "account": "Chequing",
+   "amount": -85.0,
+   "payee": "Rogers",
+   "currency": "USD",
+   "tags": "source:csv"
+  }
+ ],
+ "duplicateMatches": [],
+ "probableDuplicates": [],
+ "errors": []
+}

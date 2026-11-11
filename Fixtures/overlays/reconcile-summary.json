@@ -1,0 +1,31 @@
+{
+ "rows": [
+  {
+   "accountId": 4100,
+   "accountName": "Chequing",
+   "currency": "USD",
+   "currentBalance": 9200.85,
+   "lastImportAt": "2026-11-08T14:00:00.000Z",
+   "lastReconciledAt": "2026-11-08T14:05:00.000Z",
+   "pendingCount": 9
+  },
+  {
+   "accountId": 4101,
+   "accountName": "Savings",
+   "currency": "USD",
+   "currentBalance": 15252.1,
+   "lastImportAt": null,
+   "lastReconciledAt": null,
+   "pendingCount": 0
+  },
+  {
+   "accountId": 4103,
+   "accountName": "Visa Rewards",
+   "currency": "USD",
+   "currentBalance": -3110.4,
+   "lastImportAt": null,
+   "lastReconciledAt": null,
+   "pendingCount": 0
+  }
+ ]
+}

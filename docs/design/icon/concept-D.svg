@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<title>Finlynq concept D, Budget ring</title>
+<defs><linearGradient id="g569" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1024"><stop offset="0" stop-color="#2E4290" stop-opacity="1"></stop><stop offset="1" stop-color="#0F1A45" stop-opacity="1"></stop></linearGradient><linearGradient id="g570" gradientUnits="userSpaceOnUse" x1="0" y1="232" x2="0" y2="792"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"></stop><stop offset="1" stop-color="#E6ECFF" stop-opacity="1"></stop></linearGradient><linearGradient id="g571" gradientUnits="userSpaceOnUse" x1="0" y1="232" x2="0" y2="792"><stop offset="0" stop-color="#5FE6A0" stop-opacity="1"></stop><stop offset="1" stop-color="#1FB866" stop-opacity="1"></stop></linearGradient></defs>
+<g id="background"><rect width="1024" height="1024" fill="url(#g569)"></rect></g>
+<g id="concept-D-glyph"><g id="concept-D-glyph-layer-1"><path d="M617.7 285.4A250 250 0 1 1 307.2 655.4" stroke="url(#g570)" fill="none" stroke-width="128" stroke-linecap="round"></path></g><g id="concept-D-glyph-layer-2"><path d="M263.9 481.5A250 250 0 0 1 438.9 272.9" stroke="url(#g571)" fill="none" stroke-width="128" stroke-linecap="round"></path></g></g>
+</svg>

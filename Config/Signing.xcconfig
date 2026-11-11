@@ -1,0 +1,4 @@
+// To sign with your Apple developer team, create Config/Local.xcconfig (gitignored) with:
+// DEVELOPMENT_TEAM = <your team id>
+// Without it, scripts/check.sh and scripts/screens.sh sign ad-hoc.
+#include? "Local.xcconfig"

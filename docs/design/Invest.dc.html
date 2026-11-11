@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Record a buy</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2F5BEA}a:hover{color:#1E3FB0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; position: relative; overflow: hidden; background: #8A8D94; font-family: Inter, system-ui, sans-serif; color: #111318; font-feature-settings: 'tnum' 1">
+  <div aria-hidden="true" style="position: absolute; left: 10px; right: 10px; top: 54px; height: 60px; border-radius: 22px 22px 0 0; background: #B9BBC0"></div>
+
+  <div role="dialog" aria-label="New buy" style="position: absolute; left: 0; right: 0; top: 70px; bottom: 0; background: #FFFFFF; border-radius: 32px 32px 0 0; padding: 8px 20px 28px; box-sizing: border-box; display: flex; flex-direction: column; gap: 12px">
+    <div aria-hidden="true" style="width: 40px; height: 5px; border-radius: 3px; background: #D6D8DD; align-self: center"></div>
+    <div style="display: flex; align-items: center; justify-content: space-between; height: 32px">
+      <button style="border: none; background: transparent; color: #2F5BEA; font: 500 16px Inter, sans-serif; padding: 0; width: 60px; text-align: left">Cancel</button>
+      <div style="font-size: 16px; font-weight: 600">New buy</div>
+      <span aria-hidden="true" style="width: 60px"></span>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px; background: #F2F3F5; padding: 3px; border-radius: 11px">
+      <button style="border: none; background: transparent; font: 500 14px Inter, sans-serif; color: #4A505B; padding: 8px 0; border-radius: 9px">Expense</button>
+      <button style="border: none; background: transparent; font: 500 14px Inter, sans-serif; color: #4A505B; padding: 8px 0; border-radius: 9px">Income</button>
+      <button style="border: none; background: transparent; font: 500 14px Inter, sans-serif; color: #4A505B; padding: 8px 0; border-radius: 9px">Transfer</button>
+      <button style="border: none; background: #FFFFFF; font: 600 14px Inter, sans-serif; color: #111318; padding: 8px 0; border-radius: 9px; box-shadow: 0 1px 2px rgba(17,19,24,0.1)">Invest</button>
+    </div>
+
+    <div role="group" aria-label="Operation" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px">
+      <button aria-pressed="true" style="height: 32px; border-radius: 16px; border: none; background: #111318; color: #FFFFFF; font: 600 13px Inter, sans-serif">Buy</button>
+      <button style="height: 32px; border-radius: 16px; border: 1px solid #D9DCE1; background: #FFFFFF; color: #111318; font: 500 13px Inter, sans-serif">Sell</button>
+      <button style="height: 32px; border-radius: 16px; border: 1px solid #D9DCE1; background: #FFFFFF; color: #111318; font: 500 13px Inter, sans-serif">Dividend</button>
+      <button style="height: 32px; border-radius: 16px; border: 1px solid #D9DCE1; background: #FFFFFF; color: #111318; font: 500 13px Inter, sans-serif">Deposit</button>
+      <button style="height: 32px; border-radius: 16px; border: 1px solid #D9DCE1; background: #FFFFFF; color: #111318; font: 500 13px Inter, sans-serif">Withdraw</button>
+      <button aria-label="More operations: swap, in-kind transfer, FX conversion" style="height: 32px; border-radius: 16px; border: 1px solid #D9DCE1; background: #FFFFFF; color: #111318; font: 500 13px Inter, sans-serif; display: flex; align-items: center; justify-content: center; gap: 4px">More<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg></button>
+    </div>
+
+    <div style="border: 1px solid #E3E5E9; border-radius: 16px; padding: 0 14px">
+      <button style="width: 100%; border: none; background: transparent; display: flex; align-items: center; gap: 12px; padding: 11px 0; border-bottom: 1px solid #EEF0F2; text-align: left; font-family: Inter, sans-serif; color: #111318">
+        <span style="width: 34px; height: 34px; border-radius: 11px; background: #F1ECFF; color: #5B3CC4; display: flex; align-items: center; justify-content: center; flex: none"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"></path><path d="M14 7h7v7"></path></svg></span>
+        <span style="flex: 1; min-width: 0"><span style="display: block; font-size: 12px; color: #5F6672">Account</span><span style="display: block; font-size: 15px; font-weight: 600">Brokerage</span></span>
+        <span style="font-size: 13px; color: #5F6672">Cash $4,000.30</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9AA0AA" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+      </button>
+
+      <div style="padding: 10px 0 11px; border-bottom: 1px solid #EEF0F2">
+        <label for="symbol" style="display: block; font-size: 12px; color: #5F6672; margin-bottom: 6px">Holding</label>
+        <div style="display: flex; align-items: center; gap: 8px; height: 40px; padding: 0 10px; border-radius: 12px; background: #F2F3F5; color: #5F6672">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-3.5-3.5"></path></svg>
+          <input id="symbol" type="search" value="VTI" placeholder="Symbol or name" style="border: none; background: transparent; font: 600 16px Inter, sans-serif; color: #111318; outline: none; width: 44px">
+          <span style="flex: 1; min-width: 0; font-size: 13px; color: #5F6672; white-space: nowrap; overflow: hidden; text-overflow: ellipsis">Vanguard Total Stock Market</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0B6B37" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5 9-10"></path></svg>
+        </div>
+        <div style="font-size: 12px; color: #5F6672; margin-top: 6px">You hold 231 shares in Brokerage</div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-bottom: 1px solid #EEF0F2">
+        <div style="padding: 10px 12px 10px 0; border-right: 1px solid #EEF0F2">
+          <label for="shares" style="display: block; font-size: 12px; color: #5F6672">Shares</label>
+          <input id="shares" type="text" inputmode="decimal" value="5" style="border: none; background: transparent; font: 600 17px Inter, sans-serif; color: #111318; outline: none; width: 100%; padding: 2px 0 0">
+        </div>
+        <div style="padding: 10px 0 10px 12px">
+          <label for="price" style="display: block; font-size: 12px; color: #5F6672">Price per share</label>
+          <input id="price" type="text" inputmode="decimal" value="$372.06" style="border: none; background: transparent; font: 600 17px Inter, sans-serif; color: #111318; outline: none; width: 100%; padding: 2px 0 0">
+          <div style="font-size: 12px; color: #5F6672">Market price</div>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr))">
+        <div style="padding: 10px 12px 11px 0; border-right: 1px solid #EEF0F2">
+          <label for="fees" style="display: block; font-size: 12px; color: #5F6672">Fees</label>
+          <input id="fees" type="text" inputmode="decimal" value="$0.00" style="border: none; background: transparent; font: 600 17px Inter, sans-serif; color: #111318; outline: none; width: 100%; padding: 2px 0 0">
+        </div>
+        <button style="border: none; background: transparent; padding: 10px 0 11px 12px; text-align: left; font-family: Inter, sans-serif; color: #111318; display: flex; align-items: center">
+          <span style="flex: 1"><span style="display: block; font-size: 12px; color: #5F6672">Date</span><span style="display: block; font-size: 17px; font-weight: 600; padding-top: 2px">Today</span></span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9AA0AA" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+        </button>
+      </div>
+    </div>
+
+    <div style="background: #F6F7F8; border-radius: 16px; padding: 14px; display: flex; flex-direction: column; gap: 8px">
+      <div style="display: flex; align-items: baseline; justify-content: space-between">
+        <span style="font-size: 15px; font-weight: 600">Total cost</span>
+        <span style="font-size: 26px; font-weight: 700; letter-spacing: -0.02em">$1,860.30</span>
+      </div>
+      <div style="display: flex; justify-content: space-between; font-size: 13px; color: #5F6672">
+        <span>Cash in Brokerage after</span><span style="color: #111318; font-weight: 600">$2,140.00</span>
+      </div>
+    </div>
+
+    <div style="display: flex; gap: 8px">
+      <button style="height: 36px; padding: 0 12px; border-radius: 18px; border: none; background: #F2F3F5; color: #4A505B; font: 500 13px Inter, sans-serif">+ Payee, note, tags</button>
+    </div>
+
+    <button style="height: 54px; border: none; border-radius: 16px; background: #2F5BEA; color: #FFFFFF; font: 600 17px Inter, sans-serif; margin-top: auto">Record buy</button>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

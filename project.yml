@@ -1,0 +1,97 @@
+name: Finlynq
+options:
+  bundleIdPrefix: dev.cuza
+  # AppIcon.icon needs an XcodeGen that knows the wrapper.icon file type.
+  minimumXcodeGenVersion: 2.46.0
+  deploymentTarget:
+    iOS: "18.0"
+    macOS: "15.0"
+configFiles:
+  Debug: Config/Signing.xcconfig
+  Release: Config/Signing.xcconfig
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    CODE_SIGN_STYLE: Automatic
+targets:
+  Finlynq:
+    type: application
+    supportedDestinations: [iOS, macOS]
+    sources:
+      - Finlynq
+      - path: Fixtures
+        type: folder
+      # The signed shortcut that Apple Pay setup's "Add shortcut" shares.
+      - path: Shortcuts/Log Apple Pay purchase.shortcut
+        buildPhase: resources
+    info:
+      path: Finlynq/Info.plist
+      properties:
+        CFBundleDisplayName: Finlynq
+        UILaunchScreen: {}
+        NSFaceIDUsageDescription: Unlock Finlynq with Face ID.
+        NSAppTransportSecurity:
+          NSAllowsLocalNetworking: true
+        LSApplicationCategoryType: public.app-category.finance
+    entitlements:
+      path: Finlynq/Finlynq.entitlements
+      properties:
+        com.apple.security.app-sandbox: true
+        com.apple.security.network.client: true
+        com.apple.security.files.user-selected.read-only: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.cuza.finlynq
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+    preBuildScripts:
+      - name: SwiftLint
+        basedOnDependencyAnalysis: false
+        script: |
+          export PATH="$PATH:/opt/homebrew/bin:/usr/local/bin"
+          if command -v swiftlint >/dev/null; then
+            swiftlint --strict --quiet
+          else
+            echo "warning: swiftlint is not installed (brew install swiftlint)"
+          fi
+  FinlynqTests:
+    type: bundle.unit-test
+    supportedDestinations: [macOS, iOS]
+    sources: [FinlynqTests]
+    dependencies:
+      - target: Finlynq
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.cuza.finlynq.tests
+        TEST_HOST[sdk=macosx*]: $(BUILT_PRODUCTS_DIR)/Finlynq.app/Contents/MacOS/Finlynq
+        BUNDLE_LOADER[sdk=macosx*]: $(TEST_HOST)
+        GENERATE_INFOPLIST_FILE: YES
+  FinlynqUITests:
+    type: bundle.ui-testing
+    supportedDestinations: [iOS]
+    sources: [FinlynqUITests]
+    dependencies:
+      - target: Finlynq
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.cuza.finlynq.uitests
+        SWIFT_DEFAULT_ACTOR_ISOLATION: nonisolated
+        GENERATE_INFOPLIST_FILE: YES
+schemes:
+  Finlynq:
+    build:
+      targets:
+        Finlynq: all
+    test:
+      targets: [FinlynqTests]
+  FinlynqUI:
+    build:
+      targets:
+        Finlynq: all
+    test:
+      targets: [FinlynqUITests]

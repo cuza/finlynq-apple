@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Setup</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2F5BEA}a:hover{color:#1E3FB0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; position: relative; overflow: hidden; background: #F2F3F5; font-family: Inter, system-ui, sans-serif; color: #111318; font-feature-settings: 'tnum' 1">
+  <div style="display: flex; flex-direction: column; gap: 14px; padding: 54px 20px 120px">
+    <div style="display: flex; align-items: center; justify-content: space-between; height: 44px">
+      <a href="#" style="display: flex; align-items: center; gap: 2px; font-size: 17px; text-decoration: none">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"></path></svg>Currency</a>
+      <a href="#" style="font-size: 17px; text-decoration: none">Skip</a>
+    </div>
+
+    <div role="progressbar" aria-label="Setup progress" aria-valuemin="1" aria-valuemax="4" aria-valuenow="2" aria-valuetext="Step 2 of 4, accounts" style="display: flex; flex-direction: column; gap: 6px">
+      <div style="font-size: 13px; font-weight: 600; color: #5F6672">Step 2 of 4</div>
+      <div style="display: flex; gap: 4px"><span style="flex: 1; height: 4px; border-radius: 2px; background: #2F5BEA"></span><span style="flex: 1; height: 4px; border-radius: 2px; background: #2F5BEA"></span><span style="flex: 1; height: 4px; border-radius: 2px; background: #DDE0E5"></span><span style="flex: 1; height: 4px; border-radius: 2px; background: #DDE0E5"></span></div>
+      <div style="display: flex; gap: 4px; font-size: 12px; color: #5F6672"><span style="flex: 1; ">Currency</span><span style="flex: 1; color: #2F5BEA; font-weight: 600">Accounts</span><span style="flex: 1; ">Import</span><span style="flex: 1; ">Budget</span></div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; gap: 6px; margin-top: 4px">
+      <h1 style="margin: 0; font-size: 34px; font-weight: 700; letter-spacing: -0.02em">Add your accounts</h1>
+      <p style="margin: 0; font-size: 15px; color: #5F6672">Start with the ones you use most. You can add more later. Amounts in USD. <a href="#" style="font-weight: 600; text-decoration: none">Change</a></p>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px"><button style="height: 88px; border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; font: 600 13px Inter, sans-serif; color: #111318"><span style="width: 36px; height: 36px; border-radius: 11px; background: #E8EEFF; color: #2F5BEA; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="2.5"></circle><path d="M6 12h.01M18 12h.01"></path></svg></span>Chequing</button><button style="height: 88px; border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; font: 600 13px Inter, sans-serif; color: #111318"><span style="width: 36px; height: 36px; border-radius: 11px; background: #E6F6EC; color: #137A43; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"></rect><circle cx="12" cy="12" r="3.5"></circle><path d="M7 20v1M17 20v1"></path></svg></span>Savings</button><button style="height: 88px; border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; font: 600 13px Inter, sans-serif; color: #111318"><span style="width: 36px; height: 36px; border-radius: 11px; background: #FFF1E3; color: #B4580A; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"></rect><path d="M2 10h20"></path></svg></span>Credit card</button><button style="height: 88px; border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; font: 600 13px Inter, sans-serif; color: #111318"><span style="width: 36px; height: 36px; border-radius: 11px; background: #F1ECFF; color: #5B3CC4; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"></path><path d="M14 7h7v7"></path></svg></span>Investment</button><button style="height: 88px; border: 1px solid #E3E5E9; background: #FFFFFF; border-radius: 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; font: 600 13px Inter, sans-serif; color: #111318"><span style="width: 36px; height: 36px; border-radius: 11px; background: #FDEBEB; color: #B42318; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 5L5 19"></path><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg></span>Loan</button><button style="height: 88px; border: 1px dashed #C9CDD4; background: transparent; border-radius: 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; font: 600 13px Inter, sans-serif; color: #4A505B"><span style="width: 36px; height: 36px; display: flex; align-items: center; justify-content: center"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg></span>Other</button></div>
+
+    <section style="display: flex; flex-direction: column; gap: 6px">
+      <h2 style="margin: 4px 4px 0; font-size: 13px; font-weight: 600; color: #5F6672">Added · 2</h2>
+      <div style="background: #FFFFFF; border-radius: 18px; padding: 0 16px"><a href="#" style="display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid #EEF0F2; text-decoration: none; color: #111318"><span style="width: 34px; height: 34px; border-radius: 11px; background: #E8EEFF; color: #2F5BEA; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="6" width="20" height="12" rx="2"></rect><circle cx="12" cy="12" r="2.5"></circle><path d="M6 12h.01M18 12h.01"></path></svg></span><span style="flex: 1"><span style="display: block; font-size: 15px; font-weight: 600">Chequing</span><span style="font-size: 13px; color: #5F6672">Cash · USD</span></span><span style="font-size: 15px; font-weight: 600">$9,058.05</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9AA0AA" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg></a><a href="#" style="display: flex; align-items: center; gap: 12px; padding: 10px 0; text-decoration: none; color: #111318"><span style="width: 34px; height: 34px; border-radius: 11px; background: #FFF1E3; color: #B4580A; display: flex; align-items: center; justify-content: center; flex-shrink: 0"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="2"></rect><path d="M2 10h20"></path></svg></span><span style="flex: 1"><span style="display: block; font-size: 15px; font-weight: 600">Visa Rewards</span><span style="font-size: 13px; color: #5F6672">Credit card · USD</span></span><span style="font-size: 15px; font-weight: 600">−$3,110.40</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9AA0AA" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg></a></div>
+    </section>
+
+    <a href="#" style="align-self: center; display: flex; align-items: center; gap: 6px; font-size: 15px; font-weight: 600; text-decoration: none; padding: 10px 0"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"></path><path d="M14 3v5h5"></path></svg>Import a statement instead</a>
+  </div>
+
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; padding: 12px 20px 30px; background: rgba(242,243,245,0.94); border-top: 1px solid #E1E3E7">
+    <button style="width: 100%; height: 52px; border: none; border-radius: 16px; background: #2F5BEA; color: #FFFFFF; font: 600 17px Inter, sans-serif">Continue</button>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

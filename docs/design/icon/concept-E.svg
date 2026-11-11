@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<title>Finlynq concept E, F ledger</title>
+<defs><linearGradient id="g572" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1024"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"></stop><stop offset="1" stop-color="#E4E9F2" stop-opacity="1"></stop></linearGradient><linearGradient id="g573" gradientUnits="userSpaceOnUse" x1="0" y1="232" x2="0" y2="792"><stop offset="0" stop-color="#4F78FF" stop-opacity="1"></stop><stop offset="1" stop-color="#2246D4" stop-opacity="1"></stop></linearGradient><linearGradient id="g574" gradientUnits="userSpaceOnUse" x1="0" y1="232" x2="0" y2="792"><stop offset="0" stop-color="#3DD283" stop-opacity="1"></stop><stop offset="1" stop-color="#1C9A55" stop-opacity="1"></stop></linearGradient></defs>
+<g id="background"><rect width="1024" height="1024" fill="url(#g572)"></rect></g>
+<g id="concept-E-glyph"><g id="concept-E-glyph-layer-1"><rect x="296" y="252" width="112" height="520" rx="56" fill="url(#g573)"></rect><rect x="440" y="252" width="300" height="112" rx="56" fill="url(#g573)"></rect></g><g id="concept-E-glyph-layer-2"><rect x="440" y="456" width="200" height="112" rx="56" fill="url(#g574)"></rect></g></g>
+</svg>

@@ -1,0 +1,1 @@
+[{"id":1567,"name":"Bank interest → Interest","conditions":{"all":[{"op":"contains","field":"payee","value":"Bank interest"}]},"actions":[{"kind":"set_category","categoryId":8482}],"isActive":true,"priority":100,"createdAt":"2026-11-09 03:00:25.33593+00","updatedAt":"2026-11-09T03:00:25.335Z","actionFKNames":{"categories":{"8482":"Interest"},"accounts":{},"holdings":{}}}]

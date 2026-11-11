@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Car loan what if</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2F5BEA}a:hover{color:#1E3FB0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; position: relative; overflow: hidden; background: #F2F3F5; font-family: Inter, system-ui, sans-serif; color: #111318; font-feature-settings: 'tnum' 1">
+  <div style="display: flex; flex-direction: column; gap: 12px; padding: 54px 20px 110px">
+
+    <div style="display: flex; align-items: center; justify-content: space-between; height: 44px">
+      <a href="Debts.dc.html" style="display: flex; align-items: center; gap: 2px; font-size: 17px; text-decoration: none">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"></path></svg>Debts</a>
+      <button style="border: none; background: transparent; color: #2F5BEA; font: 500 17px Inter, sans-serif; padding: 0">Edit</button>
+    </div>
+    <h1 style="margin: 0; font-size: 34px; font-weight: 700; letter-spacing: -0.02em">Car loan</h1>
+
+    <section style="background: #FFFFFF; border-radius: 22px; padding: 18px; display: flex; flex-direction: column; gap: 10px">
+      <div style="font-size: 13px; font-weight: 500; color: #5F6672">Left to pay</div>
+      <div style="display: flex; align-items: baseline; justify-content: space-between">
+        <div style="font-size: 34px; font-weight: 700; letter-spacing: -0.03em; line-height: 1">$45,590</div>
+        <div style="font-size: 13px; color: #5F6672">of $73,500</div>
+      </div>
+      <span style="height: 8px; background: #ECEEF1; border-radius: 4px; display: block"><span style="display: block; width: 38%; height: 8px; background: #F29A4A; border-radius: 4px"></span></span>
+      <div style="display: flex; justify-content: space-between; font-size: 13px; color: #5F6672"><span>6.4% · $1,240 / month</span><span><span style="color: #111318; font-weight: 600">Mar 2030</span> · 40 payments left</span></div>
+    </section>
+
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2px; background: #E4E6EA; padding: 3px; border-radius: 11px">
+      <button style="border: none; background: transparent; font: 500 14px Inter, sans-serif; color: #4A505B; padding: 8px 0; border-radius: 9px">Payoff</button>
+      <button style="border: none; background: transparent; font: 500 14px Inter, sans-serif; color: #4A505B; padding: 8px 0; border-radius: 9px">Schedule</button>
+      <button style="border: none; background: #FFFFFF; font: 600 14px Inter, sans-serif; color: #111318; padding: 8px 0; border-radius: 9px; box-shadow: 0 1px 2px rgba(17,19,24,0.1)">What if</button>
+    </div>
+
+    <section style="background: #FFFFFF; border-radius: 22px; padding: 16px; display: flex; flex-direction: column; gap: 10px">
+      <div style="display: flex; align-items: baseline; justify-content: space-between">
+        <label for="extra" style="font-size: 15px; font-weight: 700">Extra each month</label>
+        <div><span style="font-size: 28px; font-weight: 700; letter-spacing: -0.02em">$200</span><span style="font-size: 13px; color: #5F6672"> / month</span></div>
+      </div>
+      <input id="extra" type="range" min="0" max="1000" step="50" value="200" style="width: 100%; margin: 4px 0; accent-color: #2F5BEA; height: 28px">
+      <div role="group" aria-label="Quick amounts" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px">
+        <button style="height: 32px; border-radius: 16px; border: 1px solid #D9DCE1; background: #FFFFFF; color: #111318; font: 500 13px Inter, sans-serif">$100</button>
+        <button aria-pressed="true" style="height: 32px; border-radius: 16px; border: none; background: #111318; color: #FFFFFF; font: 600 13px Inter, sans-serif">$200</button>
+        <button style="height: 32px; border-radius: 16px; border: 1px solid #D9DCE1; background: #FFFFFF; color: #111318; font: 500 13px Inter, sans-serif">$500</button>
+        <button style="height: 32px; border-radius: 16px; border: 1px solid #D9DCE1; background: #FFFFFF; color: #111318; font: 500 13px Inter, sans-serif">$1,000</button>
+      </div>
+    </section>
+
+    <section aria-label="Result" style="background: #FFFFFF; border-radius: 22px; padding: 16px; display: flex; flex-direction: column; gap: 12px">
+      <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+        <div><div style="font-size: 12px; color: #5F6672">New payoff</div><div style="font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: #2F5BEA">Aug 2029</div></div>
+        <div><div style="font-size: 12px; color: #5F6672">Without extra</div><div style="font-size: 22px; font-weight: 700; letter-spacing: -0.02em; color: #5F6672">Mar 2030</div></div>
+      </div>
+      <div style="display: flex; gap: 8px">
+        <span style="font-size: 13px; font-weight: 600; color: #0B6B37; background: #E3F5EA; padding: 5px 10px; border-radius: 10px">$1,140 less interest</span>
+        <span style="font-size: 13px; font-weight: 600; color: #0B6B37; background: #E3F5EA; padding: 5px 10px; border-radius: 10px">7 months sooner</span>
+      </div>
+    </section>
+
+    <section style="background: #FFFFFF; border-radius: 22px; padding: 16px; display: flex; flex-direction: column; gap: 8px">
+      <div style="display: flex; justify-content: space-between; align-items: baseline">
+        <h2 style="margin: 0; font-size: 15px; font-weight: 700">Balance</h2>
+        <div style="display: flex; gap: 10px; font-size: 12px; color: #5F6672">
+          <span style="display: flex; align-items: center; gap: 5px"><span style="width: 14px; height: 3px; border-radius: 2px; background: #2F5BEA"></span>With $200</span>
+          <span style="display: flex; align-items: center; gap: 5px"><span style="width: 14px; height: 0; border-top: 2px dashed #8A909B"></span>Now</span>
+        </div>
+      </div>
+      <svg width="318" height="140" viewBox="0 0 318 140" role="img" aria-label="With $200 extra a month the balance reaches zero in Aug 2029, 7 months before the current Mar 2030 payoff" style="display: block">
+        <path d="M0 110 H318" stroke="#EEF0F2" stroke-width="1"></path>
+        <path d="M0 10 L75 42.1 L150 75.4 L225 110 L0 110 Z" fill="#E8EEFF"></path>
+        <path d="M0 10 L75 33.6 L150 58.1 L225 83.6 L300 110" fill="none" stroke="#8A909B" stroke-width="2" stroke-dasharray="5 4" stroke-linejoin="round"></path>
+        <path d="M0 10 L75 42.1 L150 75.4 L225 110" fill="none" stroke="#2F5BEA" stroke-width="2.2" stroke-linejoin="round"></path>
+        <circle cx="225" cy="110" r="4" fill="#2F5BEA" stroke="#FFFFFF" stroke-width="2"></circle>
+        <circle cx="300" cy="110" r="4" fill="#8A909B" stroke="#FFFFFF" stroke-width="2"></circle>
+        <text x="4" y="24" font-family="Inter, sans-serif" font-size="11" fill="#5F6672">$45.6k</text>
+        <text x="0" y="130" font-family="Inter, sans-serif" font-size="11" fill="#5F6672">Now</text>
+        <text x="150" y="130" font-family="Inter, sans-serif" font-size="11" fill="#5F6672" text-anchor="middle">2029</text>
+        <text x="225" y="130" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#2F5BEA" text-anchor="middle">Aug</text>
+        <text x="300" y="130" font-family="Inter, sans-serif" font-size="11" fill="#5F6672" text-anchor="middle">Mar 2030</text>
+      </svg>
+    </section>
+
+    <a href="#" style="background: #FFFFFF; border-radius: 18px; padding: 14px 16px; display: flex; align-items: center; gap: 12px; text-decoration: none; color: #111318">
+      <span style="flex: 1"><span style="display: block; font-size: 15px; font-weight: 600">See full schedule</span><span style="font-size: 13px; color: #5F6672">40 payments, 33 with $200 extra</span></span>
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9AA0AA" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+    </a>
+  </div>
+
+  <div style="position: absolute; left: 0; right: 0; bottom: 0; padding: 12px 20px 30px; background: rgba(242,243,245,0.94); border-top: 1px solid #E1E3E7">
+    <button style="width: 100%; height: 52px; border: none; border-radius: 16px; background: #2F5BEA; color: #FFFFFF; font: 600 17px Inter, sans-serif">Pay $200 extra each month</button>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

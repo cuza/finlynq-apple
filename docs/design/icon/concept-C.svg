@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<title>Finlynq concept C, Bars and trend</title>
+<defs><linearGradient id="g566" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1024"><stop offset="0" stop-color="#5C84FF" stop-opacity="1"></stop><stop offset="1" stop-color="#2246D4" stop-opacity="1"></stop></linearGradient><linearGradient id="g567" gradientUnits="userSpaceOnUse" x1="0" y1="232" x2="0" y2="792"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"></stop><stop offset="1" stop-color="#E6ECFF" stop-opacity="1"></stop></linearGradient><linearGradient id="g568" gradientUnits="userSpaceOnUse" x1="0" y1="232" x2="0" y2="792"><stop offset="0" stop-color="#A4F7CB" stop-opacity="1"></stop><stop offset="1" stop-color="#4FDB93" stop-opacity="1"></stop></linearGradient></defs>
+<g id="background"><rect width="1024" height="1024" fill="url(#g566)"></rect></g>
+<g id="concept-C-glyph"><g id="concept-C-glyph-layer-1"><path d="M296 728V485M458 728V323M620 728V566M242 728H782" stroke="url(#g567)" fill="none" stroke-width="70" stroke-linecap="round" stroke-linejoin="round"></path></g><g id="concept-C-glyph-layer-2"><path d="M269 431L431 296L593 458L755 323" stroke="url(#g568)" fill="none" stroke-width="70" stroke-linecap="round" stroke-linejoin="round"></path></g></g>
+</svg>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Wealth</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0}
+a{color:#2F5BEA}a:hover{color:#1E3FB0}
+</style>
+</helmet>
+<div style="width: 390px; height: 844px; box-sizing: border-box; position: relative; overflow: hidden; background: #F2F3F5; font-family: Inter, system-ui, sans-serif; color: #111318; font-feature-settings: 'tnum' 1">
+  <div style="display: flex; flex-direction: column; gap: 12px; padding: 60px 20px 120px">
+
+    <div style="display: flex; align-items: center; justify-content: space-between">
+      <h1 style="margin: 0; font-size: 34px; font-weight: 700; letter-spacing: -0.02em">Wealth</h1>
+      <button aria-label="Add account" style="width: 40px; height: 40px; border-radius: 20px; border: none; background: #FFFFFF; color: #111318; display: flex; align-items: center; justify-content: center">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>
+      </button>
+    </div>
+
+    <section style="background: #FFFFFF; border-radius: 22px; padding: 18px; display: flex; flex-direction: column; gap: 10px">
+      <div style="font-size: 13px; font-weight: 500; color: #5F6672">Net worth</div>
+      <div style="font-size: 36px; font-weight: 700; letter-spacing: -0.03em; line-height: 1">$184,250<span style="color: #8A909B">.12</span></div>
+      <div style="display: flex; gap: 3px; margin-top: 4px">
+        <div style="flex: 233; height: 10px; background: #2F5BEA; border-radius: 5px 0 0 5px"></div>
+        <div style="flex: 49; height: 10px; background: #F29A4A; border-radius: 0 5px 5px 0"></div>
+      </div>
+      <div style="display: flex; justify-content: space-between; font-size: 13px; color: #5F6672">
+        <span style="display: flex; align-items: center; gap: 6px"><span style="width: 8px; height: 8px; border-radius: 2px; background: #2F5BEA"></span>Assets <span style="color: #111318; font-weight: 600">$232,950</span></span>
+        <span style="display: flex; align-items: center; gap: 6px"><span style="width: 8px; height: 8px; border-radius: 2px; background: #F29A4A"></span>Debts <span style="color: #111318; font-weight: 600">$48,700</span></span>
+      </div>
+    </section>
+
+    <a href="Investments.dc.html" style="background: #FFFFFF; border-radius: 22px; padding: 16px; display: flex; flex-direction: column; gap: 10px; text-decoration: none; color: #111318">
+      <div style="display: flex; align-items: center; gap: 10px">
+        <span style="width: 34px; height: 34px; border-radius: 11px; background: #F1ECFF; color: #5B3CC4; display: flex; align-items: center; justify-content: center"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 17l6-6 4 4 8-8"></path><path d="M14 7h7v7"></path></svg></span>
+        <span style="flex: 1; font-size: 15px; font-weight: 700">Investments</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#9AA0AA" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M9 6l6 6-6 6"></path></svg>
+      </div>
+      <div style="display: flex; align-items: flex-end; justify-content: space-between">
+        <div>
+          <div style="font-size: 26px; font-weight: 700; letter-spacing: -0.02em">$208,640</div>
+          <div style="font-size: 13px; font-weight: 600; color: #0B6B37">+$1,184 (0.6%) today</div>
+        </div>
+        <svg width="120" height="40" viewBox="0 0 120 40" aria-hidden="true">
+          <path d="M0 32 L12 30 L24 33 L36 26 L48 27 L60 21 L72 23 L84 15 L96 17 L108 9 L120 6" fill="none" stroke="#5B3CC4" stroke-width="2" stroke-linejoin="round"></path>
+        </svg>
+      </div>
+      <div style="display: flex; gap: 3px">
+        <div style="flex: 42; height: 6px; background: #5B3CC4; border-radius: 3px 0 0 3px"></div>
+        <div style="flex: 31; height: 6px; background: #9B7BF0"></div>
+        <div style="flex: 18; height: 6px; background: #C9B8FA"></div>
+        <div style="flex: 9; height: 6px; background: #F29A4A; border-radius: 0 3px 3px 0"></div>
+      </div>
+      <div style="display: flex; gap: 12px; font-size: 12px; color: #5F6672">
+        <span>VTI 42%</span><span>XEQT 31%</span><span>VXUS 18%</span><span>BTC 9%</span>
+      </div>
+    </a>
+
+    <section style="display: flex; flex-direction: column; gap: 6px">
+      <h2 style="margin: 0; padding: 4px 4px 0; display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; color: #5F6672"><span>Cash</span><span>$24,310</span></h2>
+      <div style="background: #FFFFFF; border-radius: 18px; padding: 0 16px">
+        <a href="Account.dc.html" style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid #EEF0F2; text-decoration: none; color: #111318">
+          <span style="flex: 1; font-size: 15px; font-weight: 600">Chequing</span><span style="font-size: 15px; font-weight: 600">$9,058.05</span>
+        </a>
+        <a href="#" style="display: flex; align-items: center; gap: 12px; padding: 12px 0; text-decoration: none; color: #111318">
+          <span style="flex: 1; font-size: 15px; font-weight: 600">Savings</span><span style="font-size: 15px; font-weight: 600">$15,252.00</span>
+        </a>
+      </div>
+    </section>
+
+    <section style="display: flex; flex-direction: column; gap: 6px">
+      <h2 style="margin: 0; padding: 4px 4px 0; display: flex; justify-content: space-between; font-size: 13px; font-weight: 600; color: #5F6672"><span>Debts · −$48,700</span><a href="Debts.dc.html" style="text-decoration: none; font-weight: 600">Payoff plan</a></h2>
+      <div style="background: #FFFFFF; border-radius: 18px; padding: 0 16px">
+        <a href="#" style="display: flex; align-items: center; gap: 12px; padding: 12px 0; border-bottom: 1px solid #EEF0F2; text-decoration: none; color: #111318">
+          <span style="flex: 1"><span style="display: block; font-size: 15px; font-weight: 600">Visa Rewards</span><span style="font-size: 13px; color: #5F6672">Last paid $2,480 on Oct 22</span></span><span style="font-size: 15px; font-weight: 600">−$3,110.40</span>
+        </a>
+        <a href="Loan.dc.html" style="display: flex; flex-direction: column; gap: 8px; padding: 12px 0; text-decoration: none; color: #111318">
+          <span style="display: flex; align-items: center; gap: 12px">
+            <span style="flex: 1"><span style="display: block; font-size: 15px; font-weight: 600">Car loan</span><span style="font-size: 13px; color: #5F6672">$1,240/mo · paid off Mar 2030</span></span><span style="font-size: 15px; font-weight: 600">−$45,590.00</span>
+          </span>
+          <span style="height: 5px; background: #ECEEF1; border-radius: 3px; display: block"><span style="display: block; width: 38%; height: 5px; background: #F29A4A; border-radius: 3px"></span></span>
+        </a>
+      </div>
+    </section>
+  </div>
+
+  <nav aria-label="Tabs" style="position: absolute; left: 16px; bottom: 24px; width: 284px; height: 64px; border-radius: 32px; background: rgba(255,255,255,0.94); box-shadow: 0 8px 24px rgba(17,19,24,0.12); display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); align-items: center; padding: 0 5px; box-sizing: border-box">
+    <a href="Home.dc.html" style="text-decoration: none; border: none; background: transparent; color: #4A505B; height: 54px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font: 500 10px Inter, sans-serif"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 10.5L12 3l9 7.5"></path><path d="M5 9.5V21h14V9.5"></path></svg>Home</a>
+    <a href="Activity.dc.html" style="text-decoration: none; border: none; background: transparent; color: #4A505B; height: 54px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font: 500 10px Inter, sans-serif"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 4L3 8l4 4"></path><path d="M3 8h14"></path><path d="M17 20l4-4-4-4"></path><path d="M21 16H7"></path></svg>Activity</a>
+    <a href="Plan.dc.html" style="text-decoration: none; border: none; background: transparent; color: #4A505B; height: 54px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font: 500 10px Inter, sans-serif"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="3"></rect><path d="M8 2v4M16 2v4M3 10h18"></path><path d="M9 15l2 2 4-4"></path></svg>Plan</a>
+    <a href="Wealth.dc.html" style="text-decoration: none; border: none; background: #E8EEFF; color: #2F5BEA; height: 54px; border-radius: 27px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font: 600 10px Inter, sans-serif"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"></path><path d="M5 21V10M10 21V10M14 21V10M19 21V10"></path><path d="M12 3l9 5H3z"></path></svg>Wealth</a>
+    <a href="Insights.dc.html" style="text-decoration: none; border: none; background: transparent; color: #4A505B; height: 54px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; font: 500 10px Inter, sans-serif"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20V11M10 20V5M16 20v-6M2 20h20"></path></svg>Insights</a>
+  </nav>
+  <a href="Add.dc.html" aria-label="Add" style="text-decoration: none; position: absolute; right: 16px; bottom: 24px; width: 64px; height: 64px; border-radius: 32px; border: none; background: #2F5BEA; color: #FFFFFF; box-shadow: 0 8px 24px rgba(47,91,234,0.35); display: flex; align-items: center; justify-content: center">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"></path></svg>
+  </a>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":390,"height":844}}'>
+class Component extends DCLogic {
+  renderVals() {
+    return {};
+  }
+}
+</script>
+</body>
+</html>

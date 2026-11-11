@@ -1,0 +1,17 @@
+{
+ "success": true,
+ "data": {
+  "accountId": 4100,
+  "currency": "USD",
+  "latestAnchor": {
+   "date": "2026-11-08",
+   "balance": 9200.85,
+   "source": "upload_form",
+   "currency": "USD"
+  },
+  "bankSideLatest": 9200.85,
+  "systemSideLatest": 9200.85,
+  "delta": 0,
+  "status": "balanced"
+ }
+}

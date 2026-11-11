@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<title>Finlynq concept B, Blue pulse</title>
+<defs><linearGradient id="g563" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="0" y2="1024"><stop offset="0" stop-color="#5C84FF" stop-opacity="1"></stop><stop offset="1" stop-color="#2246D4" stop-opacity="1"></stop></linearGradient><linearGradient id="g564" gradientUnits="userSpaceOnUse" x1="0" y1="232" x2="0" y2="792"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"></stop><stop offset="1" stop-color="#E6ECFF" stop-opacity="1"></stop></linearGradient><linearGradient id="g565" gradientUnits="userSpaceOnUse" x1="0" y1="232" x2="0" y2="792"><stop offset="0" stop-color="#5FE6A0" stop-opacity="1"></stop><stop offset="1" stop-color="#1FB866" stop-opacity="1"></stop></linearGradient></defs>
+<g id="background"><rect width="1024" height="1024" fill="url(#g563)"></rect></g>
+<g id="concept-B-glyph"><g id="concept-B-glyph-layer-1"><polyline points="277,712 277,430 489,598 489,318 707,472" fill="none" stroke="url(#g564)" stroke-width="94" stroke-linejoin="round" stroke-linecap="round"></polyline></g><g id="concept-B-glyph-layer-2"><circle cx="707" cy="472" r="88" fill="url(#g565)"></circle></g></g>
+</svg>
